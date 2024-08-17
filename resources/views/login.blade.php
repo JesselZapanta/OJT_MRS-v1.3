@@ -9,7 +9,7 @@
   <body>
     <div class="login_container">
       <div class="login">
-        <h1 class="title">Log In your account here!</h1>
+        <h1 class="title">Please Log In your account here!</h1>
         @if(session('error'))
         <div class="message">
           {{ session('error') }}
